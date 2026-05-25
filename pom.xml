@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>se.fk.maven</groupId>
+    <artifactId>fk-maven-parent</artifactId>
+    <version>1.12.0</version>
+  </parent>
+  <groupId>se.fk.rimfrost.referensdata</groupId>
+  <artifactId>rimfrost-referensdata-erbjudande</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <distributionManagement>
+    <repository>
+      <id>github--Forsakringskassan--repository</id>
+      <url>https://maven.pkg.github.com/Forsakringskassan/repository</url>
+    </repository>
+  </distributionManagement>
+
+  <properties>
+    <argLine></argLine>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-arc</artifactId>
+      <version>3.20.3</version>
+    </dependency>
+    <dependency>
+      <groupId>se.fk.rimfrost.framework.referensdata</groupId>
+      <artifactId>rimfrost-framework-referensdata-interface</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>se.fk.rimfrost.adapter.referensdata</groupId>
+      <artifactId>rimfrost-adapter-referensdata</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-junit5-component</artifactId>
+      <version>3.20.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>5.23.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+    <repository>
+      <id>github--Forsakringskassan--repository</id>
+      <url>https://maven.pkg.github.com/Forsakringskassan/repository</url>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.15.0</version>
+        <configuration>
+          <compilerArgs>
+            <arg>-parameters</arg>
+            <arg>-proc:full</arg>
+          </compilerArgs>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>properties</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <argLine>@{argLine} -javaagent:${org.mockito:mockito-core:jar}</argLine>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
