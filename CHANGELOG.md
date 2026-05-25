@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-referensdata-erbjudande.
 
+## 0.0.2 (2026-05-25)
+
+### Bug Fixes
+
+-  add application.properties with Quarkus index-dependency config ([0a7a9](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/0a7a9d52f29b1b5) Ulf Slunga)  
+
 ## 0.0.1 (2026-05-25)
 
 ### Bug Fixes
