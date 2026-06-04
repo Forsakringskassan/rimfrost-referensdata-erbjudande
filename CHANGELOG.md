@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-referensdata-erbjudande.
 
+## 0.0.3 (2026-06-04)
+
+### Bug Fixes
+
+-  Bump rimfrost-adapter-referensdata version ([dad27](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/dad276dfe6190d8) Lars Persson)  
+
 ## 0.0.2 (2026-05-25)
 
 ### Bug Fixes
