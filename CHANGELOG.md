@@ -2,7 +2,18 @@
 
 Changelog of rimfrost-referensdata-erbjudande.
 
-## 0.0.3 (2026-06-04)
+## 1.1.1 (2026-09-23)
+
+### Bug Fixes
+
+-  Bump rimfrost-adapter-referensdata version in preparation for 1.2 ([83f64](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/83f64eb3c112195) Lars Persson)  
+-  **deps**  update dependency se.fk.rimfrost.adapter.referensdata:rimfrost-adapter-referensdata to v1.1.1 ([cbed9](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/cbed9a7a9fe6739) renovate[bot])  
+
+### Dependency updates
+
+- update dependency org.apache.maven.plugins:maven-compiler-plugin to v3.16.0 ([73bcc](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/73bcccd46da3c28) renovate[bot])  
+- pin forsakringskassan/.github action to d1349e6 ([62498](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/62498b12282aec5) renovate[bot])  
+## rimfrost-1.1 (2026-06-04)
 
 ### Bug Fixes
 
