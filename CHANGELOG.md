@@ -2,6 +2,19 @@
 
 Changelog of rimfrost-referensdata-erbjudande.
 
+## 1.1.2 (2026-10-30)
+
+### Bug Fixes
+
+-  bump version and fix workflows ([c7d3f](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/c7d3f2e40003110) Nils Elveros)  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to cbd74f1 ([ff03e](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/ff03e536001a834) renovate[bot])  
+- update dependency org.mockito:mockito-junit-jupiter to v5.24.0 ([90c70](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/90c70e0058855e8) renovate[bot])  
+- update forsakringskassan/.github digest to bfb01f7 ([818c2](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/818c254344f9f3c) renovate[bot])  
+## rimfrost-1_2 (2026-09-23)
+
 ## 1.1.1 (2026-09-23)
 
 ### Bug Fixes
