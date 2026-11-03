@@ -2,6 +2,16 @@
 
 Changelog of rimfrost-referensdata-erbjudande.
 
+## 1.1.3 (2026-11-03)
+
+### Bug Fixes
+
+-  workflows ([46635](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/4663511afc9ae4d) Nils Elveros)  
+-  update adapter version ([60b74](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/60b74d206c219a6) Nils Elveros)  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to 625efb1 ([10fe2](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/10fe2e6b5af6735) renovate[bot])  
 ## 1.1.2 (2026-10-30)
 
 ### Bug Fixes
