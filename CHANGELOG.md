@@ -2,6 +2,16 @@
 
 Changelog of rimfrost-referensdata-erbjudande.
 
+## 1.1.4 (2026-11-19)
+
+### Bug Fixes
+
+-  bump rimfrost-adapter-referensdata to 1.1.4 ([53423](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/53423136bd6de0e) Ulf Slunga)  
+-  **deps**  update dependency se.fk.rimfrost.adapter.referensdata:rimfrost-adapter-referensdata to v1.1.4 ([ad0f0](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/ad0f0451dabda67) renovate[bot])  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to cbc0db8 ([e50c4](https://github.com/Forsakringskassan/rimfrost-referensdata-erbjudande/commit/e50c416414876e5) renovate[bot])  
 ## 1.1.3 (2026-11-03)
 
 ### Bug Fixes
